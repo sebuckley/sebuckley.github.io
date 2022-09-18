@@ -1,6 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Gloria+Hallelujah&family=Licorice&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Licorice', cursive; */
+
+:root {
+
+    --color1: #0d1321;
+    --color2: #1d2d44;
+    --color3: #3e5c76;
+    --color4: #748cab;
+    --color5: #f0ebd8;
+    --color6: #ffffff;
+
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color5);
+    margin: 0px;
+
+}
+
 .color1Bg{
 
-    background-color:#0d1321;
+    background-color: var(--color1);
 
 } 
 
@@ -10,50 +40,343 @@
 
 } 
 
+.color1shadowText{
+
+    text-shadow: 2px 2px 4px  var(--color1);
+ 
+ } 
+
+ .color1shadowBox{
+
+    box-shadow: 2px 2px 4px  var(--color1);
+ 
+ } 
+
 .color2Bg{
 
-    background-color:#1d2d44;
+    background-color: var(--color2);
 
 } 
 
 .color2{
 
-   color:#1d2d44;
+   color: var(--color2);
 
 } 
 
+.color2shadowText{
+
+    text-shadow: 2px 2px 4px var(--color2);
+ 
+ } 
+
+ .color2shadowBox{
+
+    box-shadow: 2px 2px 4px var(--color2);
+ 
+ } 
+
 .color3Bg{
 
-    background-color:#3e5c76;
+    background-color: var(--color3);
 
 } 
 
 .color3{
 
-   color:#3e5c76;
+   color: var(--color3);
 
 } 
 
+.color3shadowText{
+
+    text-shadow: 2px 2px 4px var(--color3);
+ 
+ } 
+
+ .color3shadowBox{
+
+    box-shadow: 2px 2px 4px var(--color3);
+ 
+ } 
+
 .color4Bg{
 
-    background-color:#748cab;
+    background-color: var(--color4);
 
 } 
 
 .color4{
 
-   color:#748cab;
+   color: var(--color4);
 
 } 
 
+.color4shadowText{
+
+    text-shadow: 2px 2px 4px var(--color4);
+ 
+ } 
+
+ .color4shadowBox{
+
+    box-shadow: 2px 2px 4px var(--color4);
+ 
+ } 
+
 .color5Bg{
 
-    background-color:#f0ebd8;
+    background-color: var(--color5);
 
 } 
 
 .color5{
 
-   color:#f0ebd8;
+   color: var(--color5);
 
 } 
+
+.color5shadowText{
+
+    text-shadow: 2px 2px 4px var(--color5);
+ 
+ } 
+
+ .color5shadowBox{
+
+    box-shadow: 2px 2px 4px var(--color5);
+ 
+ } 
+
+ .titleFont {
+
+    font-family: 'Anton', sans-serif;
+    font-size: 4vw;
+
+}
+
+.subTitleWriting {
+
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.5vw;
+    margin-block-end: 0em;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .titleFont {
+
+        font-family: 'Anton', sans-serif;
+        font-size: 8vw;
+    
+    }
+    
+    .subTitleWriting {
+    
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 2.5vw;
+    
+    
+    }
+
+}
+
+.mainTitle{
+
+    margin-block-end: 0em;
+    padding-left: -25px;
+
+}
+
+.mainSubTitle{
+
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    transform: skew(20deg);
+
+}
+
+.max-width-title{
+
+    max-width: 550px;
+
+}
+
+.max-width-content{
+
+    max-width: 60%;
+
+}
+
+
+.subTitleSurround{
+
+    padding: 5px 30px;
+    transform: skew(-20deg);
+    padding-left: 30px;
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .titleFont {
+
+        font-family: 'Anton', sans-serif;
+        font-size: 8vw;
+    
+    }
+    
+    .subTitleWriting {
+    
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 2.5vw;
+    
+    
+    }
+
+    .subTitleSurround{
+
+        padding: 5px 30px;
+        transform: skew(-20deg);
+        padding-left: 30px;
+        max-width: 450px;
+    
+    }
+
+    .max-width{
+
+        max-width: 450px;
+    
+    }
+
+    .max-width-content{
+
+        max-width: 95%;
+    
+    }
+
+
+}
+
+
+.secondaryTitle{
+
+    font-size: 2vw;
+    margin-block-end: 0px;
+
+}
+
+.center{
+
+    text-align: center;
+}
+
+p{
+
+    margin: 0px;
+    padding: 20px 20px;
+
+}
+
+.margin-bottom{
+
+    margin-bottom: 20px;
+
+}
+
+.footer{
+
+    /* position: absolute;
+    bottom: 0px; */
+    width: 100%;
+
+}
+
+.copywrite{
+
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.footerLinks{
+
+    text-align: center;
+    width: 100%;
+
+}
+
+.fa {
+
+    padding: 10px;
+    font-size: 30px !important;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px 2px;
+    background: var(--color2);
+    color: var(--color5);
+
+  }
+  
+  .fa:hover {
+
+    opacity: 0.7;
+
+  }
+  
+
+.innerSection{
+
+    margin: auto;
+
+}
+
+.skillsBoxOuter{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.skillsBoxOuter > .skillsBox {
+
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: var(--color2);
+    color: var(--color5);
+    font-size: 4.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+
+}
+
+.skillsBox:hover {
+
+    opacity: 0.7;
+
+}
+
+.bold{
+
+    font-weight: bold;
+
+}
+
