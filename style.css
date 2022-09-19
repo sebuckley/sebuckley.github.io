@@ -148,6 +148,30 @@ body{
  
  } 
 
+ .color6Bg{
+
+    background-color: var(--color6);
+
+} 
+
+.color6{
+
+   color: var(--color6);
+
+} 
+
+.color6shadowText{
+
+    text-shadow: 2px 2px 4px var(--color6);
+ 
+ } 
+
+ .color6shadowBox{
+
+    box-shadow: 2px 2px 4px var(--color6);
+ 
+ } 
+
  .titleFont {
 
     font-family: 'Anton', sans-serif;
@@ -185,7 +209,6 @@ body{
 .mainTitle{
 
     margin-block-end: 0em;
-    padding-left: -25px;
 
 }
 
@@ -374,9 +397,73 @@ p{
 
 }
 
-.bold{
+.bold {
 
     font-weight: bold;
 
+}
+
+.commandline {
+
+    background-image: url("./images/commandline.svg");
+    width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+
+}
+
+.commandline2 {
+
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    
+    -webkit-mask: url("./images/commandline.svg") no-repeat 50% 50%;
+    mask: url("./images/commandline.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+
+}
+
+.readerScreen {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color1);
+    opacity: 0.8;
+    top:0px;
+    z-index: 99998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.readerDispaly {
+
+    position: fixed;
+    opacity: 1.0;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 70%;
+    background-color: var(--color2);
+    color: var(--color5);
+    z-index: 99999;
+
+}
+
+
+.close {
+
+    cursor: pointer;
+
+}
+
+.close:hover {
+
+    opacity: 0.8;
+    
 }
 

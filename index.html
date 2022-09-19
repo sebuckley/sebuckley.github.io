@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/08c3d8536d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
 </head>
 <html lang="en">
-    <body class="color1Bg color5">
+    <body class="color6Bg color1">
 
         <header>Header</header>
 
@@ -28,7 +30,7 @@
             <section>
 
                 <div class="innerSection max-width-title">
-                    <h1 class="mainTitle titleFont color3 color2shadowText max-width-title">STEPHEN BUCKLEY</h1>
+                    <h1 class="mainTitle titleFont color3 max-width-title">STEPHEN BUCKLEY</h1>
                 </div>
                 <div class="subTitleSurround color3Bg color2shadowBox innerSection max-width-title">
                     <h2 class="color5 subTitleWriting mainSubTitle max-width">web developer making processes easy not hard...</h2>
@@ -70,127 +72,134 @@
 
                     <div class="color4Bg margin-bottom skillsBoxOuter">
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="HTML 5" aria-describedby="HTML 5">
 
                             <span class="fa-skills fa-brands fa-html5"></span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="CSS">
 
                             <span class="fa-skills fa-brands fa-css3-alt"></span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="JavaScript">
 
                             <span class="fa-skills fa-brands fa-js"></span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="PHP">
 
                             <span class="fa-skills fa-brands fa-php"></span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Node JS">
 
                             <span class="fa-skills fa-brands fa-node"></span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="REACT">
 
                             <span class="fa-skills fa-brands fa-react"></span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Python">
 
                             <span class="fa-skills fa-brands fa-python"></span>
 
                         </div>
 
-                        
-                        <div class="skillsBox">
-
-                            <span class="fa-skills fa-brands fa-github"></span>
-
-                        </div>
-
-                        <div class="skillsBox">
-
-                            <span class="fa-skills fa-brands fa-git"></span>
-
-                        </div>
-
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="SQL">
 
                             <span style="font-size:0.5em;" class="bold">SQL</span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Command Line">
+
+                            <i class="commandline svgColor"></i>
+
+                        </div>
+                        
+                        <div class="skillsBox" title="GitHub">
+
+                            <span class="fa-skills fa-brands fa-github"></span>
+
+                        </div>
+
+                        <div class="skillsBox" title="GIT">
+
+                            <span class="fa-skills fa-brands fa-git"></span>
+
+                        </div>
+
+                        
+
+                        <div class="skillsBox" title="VBA (Visual Basics)">
 
                             <span style="font-size:0.5em;" class="bold">VBA</span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Microsoft Excel">
 
                             <div style="font-size:0.13em;">MICROSOFT</div>    
                             <div style="font-size:0.3em;" class="bold">EXCEL</div>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Microsoft PowerPoint">
 
                             <div style="font-size:0.13em;">MICROSOFT</div>    
                             <div style="font-size:0.17em;" class="bold">POWERPOINT</div>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Microsoft SharePoint">
 
                             <div style="font-size:0.13em;">MICROSOFT</div>    
                             <div style="font-size:0.17em;" class="bold">SHAREPOINT</div>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Photography">
 
                             <span class="fa-skills fa-solid fa-camera"></span>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Adobe Photoshop">
 
                             <div style="font-size:0.13em;">ADOBE</div>    
                             <div style="font-size:0.17em;" class="bold">PHOTOSHOP</div>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Adobe Lightroom">
 
                             <div style="font-size:0.13em;">ADOBE</div>    
                             <div style="font-size:0.17em;" class="bold">LIGHTROOM</div>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Inkscape">
 
                             <div style="font-size:0.2em;" class="bold">INKSCAPE</div>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Blender 3D">
 
                             <div style="font-size:0.2em;" class="bold">BLENDER 3D</div>
 
                         </div>
 
-                        <div class="skillsBox">
+                        <div class="skillsBox" title="Hitfilm">
 
                             <div style="font-size:0.2em;" class="bold">HITFILM</div>
 
@@ -202,13 +211,33 @@
 
                 </div>
 
+            </section>
+
+            <section>
+
+                <div class="innerSection max-width-content">
+
+                    <div class="color3Bg">
+        
+                        <h1 class="subTitleWriting secondaryTitle color5 center">PROJECTS</h1>
+
+                    </div>
+
+                    <div class="color4Bg margin-bottom">
+
+                        <p class="color5">...</p>
+
+                    </div>
+
+                </div>
+
         </section>
 
         </main>
 
         <footer class="footer" title="footer">
 
-            <div class="color3Bg copywrite">
+            <div class="color3Bg copywrite color5">
                <div style="font-size:14px;">&copy;</div> <div>&nbsp;STEPHEN BUCKLEY <span id="year">2021 - 2021</span></div>
             </div>
 
@@ -223,21 +252,35 @@
                 <a href="#" class="fa fa-envelope" title="Email" aria-label="email me"></a>   
                 <a href="#" class="fa fa-solid fa-location-dot" title="Doncaster" aria-label="Location Doncaster"></a>   
 
-               
             </div>
 
         </footer>
+
+        <div class="readerScreen">
+
+          
+
+        </div>
+
+        <div class="readerDispaly">
+
+            <h1 class="color2Bg color5 subTitleWriting secondaryTitle center readerTitle">TITLE</h1>
+            <div class="color4Bg color5 readerText"><p>Text</p></div>
+            <div class="color1Bg color5 center close"><p>CLOSE</p></div>
+
+         </div>
 
     </body>
 
 
     <script>
 
-        document.addEventListener("DOMContentLoaded", () => {
+        $(document).ready(function(){
+
+            $(".readerScreen").hide();
+            $(".readerDispaly").hide();
 
             let date =  new Date().getFullYear();
-
-            console.log(date);
 
             if(date === 2022){
 
@@ -246,6 +289,72 @@
             }else{
 
                 document.getElementById("year").innerHTML = "2022 - " + date;
+
+            }
+
+
+            $(".skillsBox").on("click", function(){
+
+                loadReaderScreen($(this));
+
+            });
+
+            $(".close").on("click", function(){
+
+                $(".readerScreen").hide();
+                $(".readerDispaly").hide();
+
+            });
+
+
+
+            function loadReaderScreen(obj){
+
+                textDetails = {
+                    "HTML 5": "I understand the script tags and how symantics plays a part in Web Design.", 
+                    "CSS": "I have created web pages usings CSS as the main styling for elements.", 
+                    "JavaScript": "I have used JavaScript extensively to dynamically alter web pages.", 
+                    "PHP": "PHP is the server side language I haqve most experience in after spending 4 years creating Photo Live Images.", 
+                    "Node JS": "", 
+                    "React": "", 
+                    "Python": "", 
+                    "SQL": "", 
+                    "Command Line": "", 
+                    "Github": "", 
+                    "GIT": "", 
+                    "VBA (Visual Basics)": "", 
+                    "Microsoft Excel": "", 
+                    "Microsoft PowerPoint": "", 
+                    "Microsoft SharePoint": "", 
+                    "Photography": "I have 7 years experience in Photography.  Specialising in sports action I have the skills to create sharp high quality images.", 
+                    "Adobe Photoshop": "", 
+                    "Adobe Lightroom": "", 
+                    "Inkscape": "", 
+                    "Blender 3D": "", 
+                    "Hitfilm": "", 
+                
+                };
+
+                title = obj.attr("title");
+
+                objectText = textDetails[title];
+
+                console.log(objectText);
+
+                if (objectText == ""){
+
+                    readerText = "Details to follow";
+
+                }else{
+
+                    readerText = objectText;
+
+                }
+                
+                $(".readerTitle").text(title);
+                $(".readerText").find("p").text(readerText);
+                $(".readerScreen").show();
+                $(".readerDispaly").show();
 
             }
 
