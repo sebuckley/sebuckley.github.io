@@ -413,6 +413,16 @@ p{
 
 }
 
+.jquery {
+
+    background-image: url("./images/jquery.svg");
+    width: 80px;
+    height: 80px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+
+}
+
 .commandline2 {
 
     width: 80px;
