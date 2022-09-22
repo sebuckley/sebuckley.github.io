@@ -1,0 +1,3 @@
+[submodule "travelapp"]
+	path = travelapp
+	url = https://github.com/sebuckley/travelapp.git

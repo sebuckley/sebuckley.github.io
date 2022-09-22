@@ -8025,7 +8025,7 @@ button {
   line-height: 1.2;
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
-  color: #1d2d44; }
+  color: #f0ebd8; }
 
 .ftco-section {
   padding: 1em 0; }
@@ -8177,12 +8177,18 @@ button {
       .testimony-wrap .img {
         height: 450px; } }
   .testimony-wrap .text {
-    background: white; }
+    background: #748cab; }
     .testimony-wrap .text p.h3 {
       font-family: "Playfair Display", serif;
       font-size: 39px;
       font-weight: 700; }
     .testimony-wrap .text .name {
-      color: #1d2d44;
+      color:#1d2d44;
       font-size: 20px;
       font-weight: 500; }
+
+    .position {
+
+      color:#1d2d44;
+
+    }
