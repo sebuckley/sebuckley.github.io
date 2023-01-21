@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/projects/baspace/static/css/main.073c9b0a.css",
+    "main.js": "/projects/baspace/static/js/main.39021879.js",
+    "static/js/787.20d1b8cb.chunk.js": "/projects/baspace/static/js/787.20d1b8cb.chunk.js",
+    "static/media/logo.svg": "/projects/baspace/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/projects/baspace/index.html",
+    "main.073c9b0a.css.map": "/projects/baspace/static/css/main.073c9b0a.css.map",
+    "main.39021879.js.map": "/projects/baspace/static/js/main.39021879.js.map",
+    "787.20d1b8cb.chunk.js.map": "/projects/baspace/static/js/787.20d1b8cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.39021879.js"
+  ]
+}
