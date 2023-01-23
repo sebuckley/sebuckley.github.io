@@ -10,7 +10,7 @@ function App() {
         <p className="para">
           Stephen Buckley Profile
           <br/>
-          Coming soon ...
+          Coming soon ....
         </p>
        
       </header>
